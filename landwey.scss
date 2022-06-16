@@ -1,0 +1,773 @@
+.wholepage{
+    width: 100%;
+    height: 100vh;
+    .navbar{
+        background-color: #FA6400;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+    }
+    .top{
+        position: absolute;
+        top: 5px;
+        @media(max-width:1023px){
+            display: none !important;
+        }
+
+        .left{
+           
+            .projects{
+                color: white;
+            }
+            .schedule{
+                color: white;               
+            }
+            .about{
+                color: white;
+            }
+            .oran{
+                background-color: orangered;
+                border: 0px;
+                border-radius: 10px;
+                a{
+                    color: white;
+                }
+                .fa-user{
+                    color: white;
+                }
+            }
+
+        }
+    }
+    
+    .firstext{
+        position: absolute;
+        top: 30%;
+        @media(max-width:912px){
+            top: 40%;
+
+        }
+        min-width: 70% !important;
+        margin: auto;
+        
+        padding-left: 20px;
+
+        .rede{
+            color: orangered;
+        }
+        .grand{
+            color: white;
+        }
+        button{
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+            transition: 0.5s all ;
+        
+        }
+        .getext{
+            color: white;
+        }
+    }
+
+    .award{
+        position: absolute;
+        top: 30%;
+        @media(max-width:912px){
+            top: 40%;
+        }
+        @media(width:1024px){
+            top: 10%;
+            width: 100%;
+
+        }
+        @media(width:1280px){
+            top: 10%;
+            width: 100%;
+
+        }
+        img{
+            background-color: transparent;
+           
+        }
+    }
+    .icon{
+        position: absolute;
+        top: 50%;
+        left: 76%;
+        width: 10px;
+    }
+    .fa{
+        color: white;
+        font-size: 30px;
+    }
+    .fb{
+        width: 40px;
+        height: 40px;
+        border: 0px solid black;
+        border-radius: 100%;
+        background-color: #FA6400;
+    }
+
+
+
+
+
+
+}
+
+@media(width:1280px){
+    
+    .left{
+        margin-top: 15px;
+        margin-left: 170px;
+       
+        .projects{
+            margin-left: 20px; 
+        }
+        .schedule{
+            font-size: 25px;
+            margin-left: 30px;
+        }
+        .about{
+            font-size: 25px;
+            margin-top: -6px;
+            margin-left: 30px;
+        }
+        .oran{
+            width: fit-content;
+            height: fit-content;
+            margin-left: 27px;
+            margin-top: -6px;
+            a{
+                font-size: 25px;
+                // display: flex;
+                // margin-top: 5px;
+            }
+            .fa-user{
+                // display: flex;
+                // margin-top: -1px;
+                // margin-left: 90px;
+                margin-left: 8px;
+               display: flex;
+               margin-top: 17px;
+                font-size: 20px;
+            }
+        }
+    }
+    
+    .firstext{
+        margin-left: 200px;
+        .rede{
+            font-size: 25px;
+        }
+        .grand{
+            line-height: 98px;
+            letter-spacing: -4px;
+            font-weight: 600;
+            font-size: 95px;
+            width: 757px;
+        }
+        .getext{
+           font-size: 30px;
+        }
+        
+    }
+
+
+
+}
+
+
+
+@media(min-width:1024px){
+    nav{ display: none !important;
+    }
+    .left{
+        margin-top: 15px;
+        .projects{
+            font-size: 22px;
+        }
+        .schedule{
+            font-size: 22px;
+            margin-left: 30px;
+        }
+        .about{
+            font-size: 22px;
+            margin-top: -6px;
+            margin-left: 30px;
+        }
+        .oran{
+            width: fit-content;
+            height:   40px;
+            margin-left: 27px;
+            margin-top: -6px;
+            a{
+                font-size: 22px;
+                // display: flex;
+                // margin-top: 5px;
+            }
+            .fa-user{
+                // display: flex;
+                // margin-top: -1px;
+                // margin-left: 90px;
+                margin-left: 8px;
+               display: flex;
+               margin-top: 15px;
+                font-size: 20px;
+            }
+        }
+    }
+
+
+    
+    .firstext{
+        position: absolute;
+        left: 10%;
+        .rede{
+            font-size: 22px;
+        }
+        .grand{
+            line-height: 98px;
+            letter-spacing: -4px;
+            font-weight: 600;
+            font-size: 89px;
+            width: 757px;
+        }
+        .getext{
+           font-size: 22px;
+        }
+        
+    }
+    .icon{
+        margin-left: 30px;
+
+    }
+    .award{
+      margin-left: 60px;
+      
+        
+        img{
+            margin-left: 50px;
+            margin-top: -30px;
+            width: 20%;
+        }
+    }
+
+
+
+}
+
+
+@media(max-width:912px){
+    nav{
+       
+        img{
+            
+            width: 50%;
+            
+            
+        }
+        
+    }
+
+    .award{
+        top: 30%;
+        img{
+            margin-left: 20px;
+            width: 40%;
+        }
+        
+    }
+
+
+}
+@media(width:912px){
+    
+    .icon{
+        margin-left: 30px;
+
+    }
+    .award{
+      margin-left: 60px;
+      margin-top: -50px;
+        
+        img{
+            margin-left: 50px;
+            margin-top: -30px;
+            width: 30%;
+        }
+        
+    }
+    .firstext{
+        margin-top: 40px;
+        margin-left: 30px;
+    .rede{
+        font-size: 25px;
+    }
+    .grand{
+        line-height: 78px;
+        letter-spacing: -4px;
+        font-weight: 600;
+        font-size: 89px;
+        width: 800px;
+    }
+    .getext{
+        font-size: 30px;
+    }
+    button{
+        margin-top: 10px;
+    }
+
+
+}
+
+}
+@media(width:820px){
+    
+    .icon{
+        margin-left: 30px;
+
+    }
+    .award{
+      margin-left: 60px;
+      margin-top: -30px;
+        
+        img{
+            margin-left: 50px;
+            margin-top: -30px;
+            width: 30%;
+        }
+        
+    }
+    .firstext{
+        margin-top: 40px;
+        margin-left: 30px;
+    .rede{
+        font-size: 25px;
+    }
+    .grand{
+        line-height: 78px;
+        letter-spacing: -4px;
+        font-weight: 600;
+        font-size: 89px;
+        width: 800px;
+    }
+    .getext{
+        font-size: 30px;
+    }
+    button{
+        margin-top: 10px;
+    }
+
+
+}
+
+}
+@media(min-width:800px){
+    .award{
+        width: 100%;
+     
+        
+        img{
+            margin-left: 50px;
+            margin-top: -30px;
+            width: 30%;
+        }
+        
+    }
+
+}
+@media(width:768px){
+    
+    .icon{
+        margin-left: 30px;
+
+    }
+    .award{
+      margin-left: 60px;
+      margin-top: -30px;
+        
+        img{
+            margin-left: 50px;
+            margin-top: -30px;
+            width: 30%;
+        }
+        
+    }
+    .firstext{
+        margin-top: 40px;
+        margin-left: 30px;
+    .rede{
+        font-size: 25px;
+    }
+    .grand{
+        line-height: 78px;
+        letter-spacing: -4px;
+        font-weight: 600;
+        font-size: 89px;
+        width: 800px;
+    }
+    .getext{
+        font-size: 30px;
+    }
+    button{
+        margin-top: 10px;
+    }
+
+
+}
+
+}
+@media(min-width:500px){
+    .award{
+        width: 100%;
+        top: 30%;
+        img{
+            margin-left: 50px;
+            width: 30%;
+        }
+        
+    }
+
+}
+
+
+@media(width:414px){
+    nav{
+       
+        img{
+            width: 50%;
+            
+        }
+    }
+    .left{
+        margin-top: 8px;
+        .projects{
+            font-size: 8px;
+            
+        }
+        .schedule{
+            font-size: 10px;
+            margin-left: 15px;
+        }
+        .about{
+            font-size: 10px;
+            margin-top: -6px;
+            margin-left: 15px;;
+        }
+        .oran{
+            width: fit-content;
+            height: fit-content;
+            margin-left: 7px;
+            margin-top: -6px;
+            a{
+                font-size: 10px;
+                // display: flex;
+                // margin-top: 5px;
+            }
+            .fa-user{
+                // display: flex;
+                // margin-top: -1px;
+                // margin-left: 90px;
+                margin-left: 4px;
+               display: flex;
+               margin-top: 15px;
+                font-size: 7px;
+            }
+        }
+    }
+    
+    
+    .firstext{
+        margin-left: 30px;
+        margin-top: 40px;
+        .rede{
+            font-size: 22px;
+        }
+        .grand{
+            line-height: 48px;
+            letter-spacing: -4px;
+            font-weight: 600;
+            font-size: 49px;
+            width: 400px;
+        }
+        .getext{
+           font-size: 22px;
+        }
+        
+    }
+
+
+
+}
+@media(width:412px){
+    nav{
+       
+        img{
+            width: 50%;
+            
+        }
+    }
+
+
+
+    .top{
+        
+         .left{
+        margin-top: 8px;
+        .projects{
+            font-size: 8px;
+            letter-spacing: 1px;
+            
+        }
+        .schedule{
+            font-size: 10px;
+            margin-left: 15px;
+        }
+        .about{
+            font-size: 10px;
+            margin-top: -6px;
+            margin-left: 15px;;
+        }
+        .oran{
+            width: fit-content;
+            height: fit-content;
+            margin-left: 7px;
+            margin-top: -6px;
+            a{
+                font-size: 10px;
+                // display: flex;
+                // margin-top: 5px;
+            }
+            .fa-user{
+                // display: flex;
+                // margin-top: -1px;
+                // margin-left: 90px;
+                margin-left: 4px;
+               display: flex;
+               margin-top: 15px;
+                font-size: 7px;
+            }
+        }
+        }
+    }   
+    
+    .firstext{
+        margin-left: 30px;
+        .rede{
+            font-size: 22px;
+        }
+        .grand{
+            line-height: 48px;
+            letter-spacing: -4px;
+            font-weight: 600;
+            font-size: 49px;
+            width: 400px;
+        }
+        .getext{
+           font-size: 22px;
+        }
+        
+    }
+
+
+
+}
+@media(width:393px){
+    .firstext{
+            margin-top: 40px;
+            margin-left: 30px;
+        .rede{
+            font-size: 22px;
+        }
+        .grand{
+            line-height: 48px;
+            letter-spacing: -4px;
+            font-weight: 600;
+            font-size: 49px;
+            width: 400px;
+        }
+        .getext{
+            font-size: 22px;
+        }
+    
+    }
+}
+
+@media(width:390px){
+    nav{
+       
+        img{
+            width: 50%;
+            
+        }
+    }
+    .left{
+        margin-top: 8px;
+        .projects{
+            font-size: 8px;
+            // letter-spacing: 1px;
+            // line-height: 20px;
+           
+            
+        }
+        .schedule{
+            font-size: 15px;
+            margin-left: 15px;
+            line-height: 15px;
+        
+
+        }
+        .about{
+            font-size: 10px;
+            margin-top: -6px;
+            margin-left: 15px;;
+        }
+        .oran{
+            width: fit-content;
+            height: fit-content;
+            margin-left: 7px;
+            margin-top: -6px;
+            a{
+                font-size: 10px;
+                // display: flex;
+                // margin-top: 5px;
+            }
+            .fa-user{
+                // display: flex;
+                // margin-top: -1px;
+                // margin-left: 90px;
+                margin-left: 4px;
+               display: flex;
+               margin-top: 15px;
+                font-size: 7px;
+            }
+        }
+    }
+    
+    
+    .firstext{
+        margin-top: 40px;
+        margin-left: 30px;
+        .rede{
+            font-size: 22px;
+        }
+        .grand{
+            line-height: 48px;
+            letter-spacing: -4px;
+            font-weight: 600;
+            font-size: 49px;
+            width: 400px;
+        }
+        .getext{
+           font-size: 22px;
+        }
+        
+    }
+
+
+
+}
+@media(width:375px){
+    .left{
+        margin-top: 8px;
+        .projects{
+            font-size: 8px;
+            
+        }
+        .schedule{
+            font-size: 10px;
+            margin-left: 15px;
+        }
+        .about{
+            font-size: 10px;
+            margin-top: -6px;
+            margin-left: 15px;;
+        }
+        .oran{
+            width: fit-content;
+            height: fit-content;
+            margin-left: 7px;
+            margin-top: -6px;
+            a{
+                font-size: 10px;
+                // display: flex;
+                // margin-top: 5px;
+            }
+            .fa-user{
+                // display: flex;
+                // margin-top: -1px;
+                // margin-left: 90px;
+                margin-left: 4px;
+               display: flex;
+               margin-top: 15px;
+                font-size: 7px;
+            }
+        }
+    }
+    
+    
+    .firstext{
+        margin-left: 30px;
+        .rede{
+            font-size: 22px;
+        }
+        .grand{
+            line-height: 48px;
+            letter-spacing: -4px;
+            font-weight: 600;
+            font-size: 49px;
+            width: 400px;
+        }
+        .getext{
+           font-size: 22px;
+        }
+        
+    }
+
+
+
+    .award{
+        width: 100%;
+        top: 30%;
+        img{
+    
+            width: 40%;
+        }
+        
+    }
+
+
+}
+@media(width:360px){
+    .firstext{
+        margin-top: 40px;
+        margin-left: 30px;
+    .rede{
+        font-size: 22px;
+    }
+    .grand{
+        line-height: 48px;
+        letter-spacing: -4px;
+        font-weight: 600;
+        font-size: 49px;
+        width: 400px;
+    }
+    .getext{
+        font-size: 22px;
+    }
+
+
+}
+
+}
+@media(width:280px){
+    .icon{
+        margin-left: -20px;
+    }
+   
+}

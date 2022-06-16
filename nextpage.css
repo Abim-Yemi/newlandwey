@@ -1,0 +1,16 @@
+.wholepage {
+  width: 100%;
+  height: 100vh;
+}
+.wholepage .navbar {
+  background-color: #FA6400;
+}
+.wholepage .navbar img {
+  width: 100px;
+}
+.wholepage .btn {
+  background-color: #FA6400;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=nextpage.css.map */
